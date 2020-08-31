@@ -1,0 +1,75 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Merci !{% endblock %}
+
+{% block body %}
+    <section>
+        <h1>Votre panier</h1>
+        <hr>
+
+        <div class="row">
+            <div class="col-6">
+                <h2>Votre panier a bien été enregistré</h2>
+                <p>Nous traitons votre commande</p>
+                <a href="{{ path('produit') }}">
+                    <button class="btn btn-outline-dark">
+                        Voir d'autres produits
+                    </button>
+                </a>
+            </div>
+        </div>
+        <hr>
+
+        <div class="row">
+            <div class="col">
+                <h2>Historique de vos commandes</h2>
+            </div>
+
+                <table class="table">
+                    <thead class="thead-light">
+                    <tr>
+                        <th class="align-middle justify-content-center" >Num commande</th>
+                        <th class="align-middle justify-content-center" >Nom produit</th>
+                        <th class="align-middle justify-content-center" >Quantité</th>
+                        <th class="align-middle justify-content-center" >Prix HT</th>
+                        <th class="align-middle justify-content-center">TVA</th>
+                        <th class="align-middle justify-content-center" >Prix TTC</th>
+                        <th class="align-middle pl-5">Photo</th>
+                        <th class="align-middle justify-content-center" >Date d'achat</th>
+                        <th class="align-middle justify-content-center"></th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    {% for commande in commandes %}
+
+                            <tr>
+                                <td hidden class="idPanier align-middle" data-id="{{ commande.id  }}"></td>
+                                <td class="align-middle">{{ commande.id  }}</td>
+                                <td class="align-middle">{{ commande.product.nomProduit }}</td>
+                                <td class="qty align-middle">
+                                    <span class="quantite">{{ commande.quantity }}</span>
+                                </td>
+                                <td class="align-middle">{{ commande.product.prixProduit|number_format(2, '.', ',') }}</td>
+                                <td class="align-middle">
+                                    <span class="tva">{{ commande.product.tva }} %</span>
+
+                                </td>
+                                <td class="align-middle">
+                                <span class="prixTTC">
+                                    {{ (commande.product.prixProduit * (1 + commande.product.tva/100) * commande.quantity)|number_format(2, '.', ',') }}
+                                </span>
+                                </td>
+                                <td class="image align-middle">
+                                    <img class="justify-content-center ml-5" src="{{ commande.product.image }}" alt="{{ commande.product.image }}">
+                                </td>
+                                <td class="align-middle">{{ commande.purchaseDate|date("d/m/Y") }}</td>
+
+                            </tr>
+
+                    {%  endfor %}
+                    </tbody>
+                </table>
+            </div>
+
+    </section>
+{% endblock %}

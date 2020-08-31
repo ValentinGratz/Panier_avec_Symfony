@@ -1,0 +1,106 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Mon panier{% endblock %}
+
+{% block body %}
+    <section>
+        <div class="mt-4 mb-5">
+            <div class="row mt-4 mb-4">
+                <h2>Mon panier</h2>
+            </div>
+            <table class="table">
+                <thead class="thead-light">
+                <tr>
+                    <th scope="col">Num</th>
+                    <th scope="col">Nom produit</th>
+                    <th scope="col">Quantité</th>
+                    <th scope="col">Prix HT</th>
+                    <th scope="col">TVA</th>
+                    <th scope="col">Prix TTC</th>
+                    <th></th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for panier in paniers %}
+                    {% if panier.quantite|length != 0 %}
+                        <tr>
+                            <td hidden class="idPanier" data-id="{{ panier.produit.id  }}"></td>
+                            <td>{{ loop.index  }}</td>
+                            <td>{{ panier.produit.nomProduit }}</td>
+                            <td class="qty">
+                                <span class="material-icons up">keyboard_arrow_up</span>
+                                <span class="material-icons down">keyboard_arrow_down</span>
+                                <span class="quantite">{{ panier.quantite }}</span>
+                            </td>
+                            <td>{{ panier.produit.prixProduit|number_format(2, '.', ',') }}</td>
+                            <td>
+                                <span class="tva">{{ panier.tva }} </span>%
+
+                            </td>
+                            <td>
+                                <span class="prixTTC">
+                                    {{ (panier.prixTTC * panier.quantite)|number_format(2, '.', ',') }}
+                                </span>
+                            </td>
+                            <td>
+                                <a href="{{ path('deleate_card', {'id': panier.produit.id} ) }}">
+                                    <i class="fa fa-trash" aria-hidden="false"></i>
+                                </a>
+                            </td>
+                        </tr>
+                    {% endif %}
+                {%  endfor %}
+                <tr class="font-weight-bold">
+                    <td>Total</td>
+                    <td></td>
+                    <td><span class="nbArticle">{{ nbArticle }}</span></td>
+                    <td></td>
+                    <td></td>
+                    <td class="totalGeneral1">{{ totalPanier|number_format(2, '.', ',') }} </td>
+                </tr>
+                </tbody>
+            </table>
+
+
+
+            <div class="row">
+                <div class="col offset-9">
+                    <p class="font-weight-bold">Prix HT : <span class="totalHT">{{ totalHT|number_format(2, '.', ',') }}</span></p>
+                    <p class="font-weight-bold">Prix TVA : <span class="valTVA">{{ totalTVA|number_format(2, '.', ',') }}</span></p>
+                    <p class="font-weight-bold">Prix TTC : <span class="totalGeneral">{{ totalPanier|number_format(2, '.', ',') }}</span></p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-2">
+                    <a href="{{ path('deleate_card_all') }}">
+                        <button class="btn btn-outline-dark">
+                            <i class="fa fa-trash"></i>
+                            Abondonner
+                        </button>
+                    </a>
+                </div>
+                <div class="col-4">
+                    <a href="{{ path('produit') }}">
+                        <button class="btn btn-outline-dark">
+                            Continuer mes achats
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="row float-right mt-3">
+                <a href="{{ path('validation_card') }}">
+                    <button class="btn btn-outline-dark">
+                        Valider ma commande
+                    </button>
+                </a>
+            </div>
+        </div>
+    </section>
+{% endblock %}
+
+{% block javascripts %}
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+
+{% endblock %}

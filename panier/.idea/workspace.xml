@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6ba52748-ff17-457c-bedb-9a646241e65b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.env.local" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/commandlinetools/Symfony_22_08_2020_17_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/commandlinetools/schemas/frameworkDescriptionVersion1.1.4.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/knpu_oauth2_client.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/GithubController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/errors/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/github/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter_project/Flutter_Project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AFPA" beforeDir="false" afterPath="$PROJECT_DIR$/../../AFPA" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/panier.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/panier.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/card/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/card/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/card/validation.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/card/validation.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/nav/nav.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/nav/nav.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/produit/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/produit/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TaskSymfony" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/.env.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/.idea/afpa.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/.idea/php.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/.idea/symfony2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/bin/console" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/bin/phpunit" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/composer.phar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/config/bootstrap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/config/bundles.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/config/packages/cache.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/config/packages/dev/debug.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/config/packages/dev/easy_log_handler.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/config/packages/dev/monolog.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/config/packages/dev/swiftmailer.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/config/packages/dev/web_profiler.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/config/packages/doctrine.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/config/packages/doctrine_migrations.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/config/packages/framework.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/config/packages/mailer.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/config/packages/notifier.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/config/packages/prod/doctrine.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/config/packages/prod/monolog.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/config/packages/prod/routing.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/config/packages/routing.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/config/packages/security.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/config/packages/sensio_framework_extra.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/config/packages/swiftmailer.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/config/packages/test/framework.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/config/packages/test/monolog.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/config/packages/test/swiftmailer.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/config/packages/test/twig.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/config/packages/test/validator.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/config/packages/test/web_profiler.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/config/packages/translation.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/config/packages/twig.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/config/packages/twig_extensions.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/config/packages/validator.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/config/routes.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/config/routes/annotations.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/config/routes/dev/framework.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/config/routes/dev/web_profiler.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/config/services.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/config/services_test.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/phpunit.xml.dist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/public/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/public/libs/css/all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/public/libs/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/public/libs/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/public/libs/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/public/libs/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/public/libs/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/public/libs/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/public/libs/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/public/libs/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/public/libs/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/public/libs/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/public/libs/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/public/libs/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/public/libs/css/fontawesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/public/libs/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/public/libs/images/agentMagasinier.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/public/libs/images/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/public/libs/images/background1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/public/libs/images/caces.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/public/libs/images/cariste.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/public/libs/images/logoAfpa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/public/libs/images/metierLog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/public/libs/images/notreOffre.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/public/libs/images/preparateurCommande.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/public/libs/images/technicienExploit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/public/libs/images/technicienLog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/public/libs/images/technicienSup.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/public/libs/js/all.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/public/libs/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/public/libs/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/public/libs/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/public/libs/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/public/libs/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/public/libs/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/public/libs/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/public/libs/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/public/libs/js/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/public/libs/webfonts/fa-brands-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/public/libs/webfonts/fa-brands-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/public/libs/webfonts/fa-brands-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/public/libs/webfonts/fa-brands-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/public/libs/webfonts/fa-brands-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/public/libs/webfonts/fa-regular-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/public/libs/webfonts/fa-regular-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/public/libs/webfonts/fa-regular-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/public/libs/webfonts/fa-regular-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/public/libs/webfonts/fa-regular-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/public/libs/webfonts/fa-solid-900.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/public/libs/webfonts/fa-solid-900.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/public/libs/webfonts/fa-solid-900.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/public/libs/webfonts/fa-solid-900.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/public/libs/webfonts/fa-solid-900.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/src/Controller/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/src/Controller/AuquotidienController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/src/Controller/CartographieController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/src/Controller/CompetenceController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/src/Controller/DetailFormationController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/src/Controller/EvolutionProController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/src/Controller/FormationController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/src/Controller/HomeController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/src/Controller/LieuDateFormationController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/src/Controller/RegistrationController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/src/Controller/ReunionController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/src/Controller/SecurityController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/src/Controller/StatutUserController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/src/Controller/TitreFormationController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/src/DataFixtures/CompetenceFixture.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/src/DataFixtures/EvolutionMetierFixture.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/src/DataFixtures/ProchaineFormationFixture.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/src/DataFixtures/QuotidienFixture.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/src/DataFixtures/TitreFixture.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/src/Entity/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/src/Entity/Auquotidien.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/src/Entity/Competence.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/src/Entity/EvolutionPro.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/src/Entity/LieuDateFormation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/src/Entity/Questionnaire.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/src/Entity/Reunion.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/src/Entity/StatutUser.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/src/Entity/TitreFormation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/src/Entity/User.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/src/Form/AuquotidienType.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/src/Form/CompetenceType.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/src/Form/EvolutionProType.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/src/Form/LieuDateFormationType.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/src/Form/QuestionnaireType.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/src/Form/RegistrationFormType.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/src/Form/ReunionType.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/src/Form/StatutType.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/src/Form/StatutUserType.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/src/Form/TitreFormationType.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/src/Kernel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/src/Migrations/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/src/Migrations/Version20200213052515.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/src/Migrations/Version20200213141433.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/src/Migrations/Version20200213141634.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/src/Migrations/Version20200214145337.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/src/Migrations/Version20200217072817.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/src/Migrations/Version20200218194814.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/src/Migrations/Version20200219172221.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/src/Migrations/Version20200223103420.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/src/Migrations/Version20200304170043.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/src/Migrations/Version20200305051119.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/src/Migrations/Version20200305053834.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/src/Migrations/Version20200305165540.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/src/Migrations/Version20200305172154.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/src/Repository/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/src/Repository/AuquotidienRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/src/Repository/CompetenceRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/src/Repository/EvolutionProRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/src/Repository/LieuDateFormationRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/src/Repository/QuestionnaireRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/src/Repository/ReunionRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/src/Repository/StatutUserRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/src/Repository/TitreFormationRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/src/Repository/UserRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/src/Security/SecurityAuthenticator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/src/Service/SendMailer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/symfony.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/templates/admin/auquotidien/_delete_form.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/templates/admin/auquotidien/_form.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/templates/admin/auquotidien/edit.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/templates/admin/auquotidien/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/templates/admin/auquotidien/new.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/templates/admin/auquotidien/show.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/templates/admin/competence/_delete_form.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/templates/admin/competence/_form.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/templates/admin/competence/edit.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/templates/admin/competence/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/templates/admin/competence/new.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/templates/admin/competence/show.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/templates/admin/evolution_pro/_delete_form.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/templates/admin/evolution_pro/_form.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/templates/admin/evolution_pro/edit.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/templates/admin/evolution_pro/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/templates/admin/evolution_pro/new.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/templates/admin/evolution_pro/show.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/templates/admin/formation/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/templates/admin/lieu_date_formation/_delete_form.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/templates/admin/lieu_date_formation/_form.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/templates/admin/lieu_date_formation/edit.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/templates/admin/lieu_date_formation/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/templates/admin/lieu_date_formation/new.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/templates/admin/lieu_date_formation/show.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/templates/admin/registration/register.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/templates/admin/reunion/_delete_form.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/templates/admin/reunion/_form.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/templates/admin/reunion/edit.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/templates/admin/reunion/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/templates/admin/reunion/new.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/templates/admin/reunion/show.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/templates/admin/statut_user/_delete_form.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/templates/admin/statut_user/_form.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/templates/admin/statut_user/edit.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/templates/admin/statut_user/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/templates/admin/statut_user/new.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/templates/admin/statut_user/show.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/templates/admin/titre_formation/_delete_form.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/templates/admin/titre_formation/_form.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/templates/admin/titre_formation/edit.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/templates/admin/titre_formation/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/templates/admin/titre_formation/new.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/templates/admin/titre_formation/show.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/templates/base.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/templates/cartographie/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/templates/detail_formation/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/templates/home/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/templates/security/login.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/tests/bootstrap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/translations/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../afpaProjetFormation/translations/forms.fr.yaml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/symfony/flex" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/persistence" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/reflection" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/stopwatch" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-eventmanager" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-code" />
+      <path value="$PROJECT_DIR$/vendor/ocramius/proxy-manager" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/migrations" />
+      <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/vendor/mbezhanov/faker-provider-collection" />
+      <path value="$PROJECT_DIR$/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/liorchamla/faker-prices" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-exporter" />
+      <path value="$PROJECT_DIR$/vendor/symfony/cache-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/framework-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/cache" />
+      <path value="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/vendor/symfony/asset" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dotenv" />
+      <path value="$PROJECT_DIR$/vendor/symfony/expression-language" />
+      <path value="$PROJECT_DIR$/vendor/symfony/property-access" />
+      <path value="$PROJECT_DIR$/vendor/symfony/intl" />
+      <path value="$PROJECT_DIR$/vendor/symfony/options-resolver" />
+      <path value="$PROJECT_DIR$/vendor/symfony/inflector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/mailer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/monolog-bridge" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-client" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-client-contracts" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/vendor/symfony/form" />
+      <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/vendor/symfony/doctrine-bridge" />
+      <path value="$PROJECT_DIR$/vendor/symfony/notifier" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-migrations-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/symfony/orm-pack" />
+      <path value="$PROJECT_DIR$/vendor/symfony/security-core" />
+      <path value="$PROJECT_DIR$/vendor/symfony/security-csrf" />
+      <path value="$PROJECT_DIR$/vendor/symfony/security-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/security-guard" />
+      <path value="$PROJECT_DIR$/vendor/symfony/security-http" />
+      <path value="$PROJECT_DIR$/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/serializer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/serializer-pack" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/vendor/symfony/property-info" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/vendor/twig/extra-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/twig-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/twig-pack" />
+      <path value="$PROJECT_DIR$/vendor/symfony/validator" />
+      <path value="$PROJECT_DIR$/vendor/symfony/twig-bridge" />
+      <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/vendor/symfony/monolog-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/web-profiler-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/web-link" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-fixtures-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/data-fixtures" />
+      <path value="$PROJECT_DIR$/vendor/twig/intl-extra" />
+      <path value="$PROJECT_DIR$/vendor/psr/link" />
+      <path value="$PROJECT_DIR$/vendor/symfony/profiler-pack" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/maker-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug-pack" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dom-crawler" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/symfony/test-pack" />
+      <path value="$PROJECT_DIR$/vendor/symfony/phpunit-bridge" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/browser-kit" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/sql-formatter" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/knpuniversity/oauth2-client-bundle" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/league/oauth2-client" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/vendor/league/oauth2-github" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1f5iNkRL5Tq2gQn86bpRuIjm8Qe" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates/admin/card" />
+      <recent name="$PROJECT_DIR$/public/assets/js" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6ba52748-ff17-457c-bedb-9a646241e65b" name="Default Changelist" comment="" />
+      <created>1595514326150</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595514326150</updated>
+      <workItem from="1595514361152" duration="3791000" />
+      <workItem from="1595587959034" duration="342000" />
+      <workItem from="1595677391970" duration="5749000" />
+      <workItem from="1595875518972" duration="20731000" />
+      <workItem from="1595970023758" duration="25094000" />
+      <workItem from="1596048723128" duration="1466000" />
+      <workItem from="1596080387611" duration="3006000" />
+      <workItem from="1596118194005" duration="7332000" />
+      <workItem from="1597554490740" duration="92000" />
+      <workItem from="1597557127222" duration="79000" />
+      <workItem from="1597557581552" duration="13000" />
+      <workItem from="1597557663571" duration="248000" />
+      <workItem from="1598108563507" duration="183000" />
+      <workItem from="1598109057972" duration="131000" />
+      <workItem from="1598109240501" duration="251000" />
+      <workItem from="1598560083013" duration="141000" />
+      <workItem from="1598560277212" duration="249000" />
+      <workItem from="1598890000331" duration="3300000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="601" y="323" key="#Notifications" timestamp="1595922990756">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="601" y="323" key="#Notifications/0.23.1440.877@0.23.1440.877" timestamp="1595922990756" />
+    <state x="396" y="205" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1598560094247">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="396" y="205" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1440.877@0.23.1440.877" timestamp="1598560094247" />
+    <state x="447" y="371" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1595517865063">
+      <screen x="0" y="22" width="2560" height="1418" />
+    </state>
+    <state x="447" y="371" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.22.2560.1418@0.22.2560.1418" timestamp="1595517865063" />
+    <state x="446" y="223" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1596019804440">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="446" y="223" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.23.1440.877@0.23.1440.877" timestamp="1596019804440" />
+    <state x="100" y="123" width="1216" height="677" key="DiffContextDialog" timestamp="1595951575864">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="100" y="123" width="1216" height="677" key="DiffContextDialog/0.23.1440.877@0.23.1440.877" timestamp="1595951575864" />
+    <state x="254" y="446" key="NewPhpClassDialog" timestamp="1595516917763">
+      <screen x="0" y="22" width="2560" height="1418" />
+    </state>
+    <state x="254" y="446" key="NewPhpClassDialog/0.22.2560.1418@0.22.2560.1418" timestamp="1595516917763" />
+    <state x="224" y="100" key="SettingsEditor" timestamp="1598108687405">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="224" y="100" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1598108687404" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1596037894361">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/0.23.1440.877@0.23.1440.877" timestamp="1596037894361" />
+    <state x="100" y="123" width="1216" height="677" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1595951575864">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="100" y="123" width="1216" height="677" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.23.1440.877@0.23.1440.877" timestamp="1595951575864" />
+    <state x="100" y="123" width="1327" height="771" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1595949353948">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="100" y="123" width="1327" height="771" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1440.877@0.23.1440.877" timestamp="1595949353948" />
+    <state x="135" y="48" width="1188" height="775" key="find.popup" timestamp="1598897064901">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="135" y="48" width="1188" height="775" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1598897064901" />
+    <state x="357" y="184" width="700" height="530" key="recent.locations.popup" timestamp="1596037897873">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="357" y="184" width="700" height="530" key="recent.locations.popup/0.23.1440.877@0.23.1440.877" timestamp="1596037897873" />
+  </component>
+</project>

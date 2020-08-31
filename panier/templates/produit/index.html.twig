@@ -1,0 +1,56 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Liste des produits{% endblock %}
+
+{% block body %}
+    <section>
+        <div class="mt-5">
+            <div class="row">
+
+                <div class="col-6">
+                    <h1>Liste des produits</h1>
+                </div>
+                <div class="col-6 text-right">
+                    <a href="{{ path('home') }}">
+                        <button class="btn btn-outline-dark">
+                            Home
+                        </button>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+        <hr>
+
+        <div class="row mb-5">
+            {% for produit in listeProduits %}
+
+                <div class="col-sx-6 col-sm-6 col-md-6 col-lg-4 mt-4">
+                    <div class="border border-dark rounded p-2 clearfix ">
+                        <h2>
+                            {{ produit.nomProduit }}
+
+                        </h2>
+                        <img class="img-fluid rounded" src="{{ produit.image }}" alt="Image de {{ produit.nomProduit }}">
+                        <hr>
+                        <div class="row">
+                            <div class="col">
+                                <p>{{ produit.nomProduit }}</p>
+
+                                <p>{{ produit.prixProduit }} €</p>
+                            </div>
+                            <div class="col">
+                                <a href="{{ path('card_add', {'id': produit.id}) }}" class="btn btn-success float-right">
+                                    <i class="fas fa-shopping-cart mr-1"></i>
+                                    Ajouter
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            {% endfor %}
+        </div>
+
+    </section>
+{% endblock %}

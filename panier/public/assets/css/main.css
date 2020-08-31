@@ -1,0 +1,48 @@
+section{
+    min-height: 1200px;
+}
+.footer {
+    width: 100%;
+}
+
+.fa{
+    color: black;
+}
+
+.hello{
+    color: white;
+}
+
+.jumbotron{
+    margin-bottom: 0 !important;
+    background-color: #343a40;
+    color: white;
+}
+
+.clearfix {
+    border: none !important;
+    box-shadow: 3px 9px 42px -10px;
+    opacity: 1;
+    z-index: 10;
+    min-height: 570px;
+}
+
+.clearfix-more{
+    border: none !important;
+    box-shadow: 3px 9px 42px -10px;
+    background-color: white;
+    padding-top: 5% !important;
+    margin-left: -3%;
+    margin-right: -3%;
+    min-height: 450px;
+}
+
+.myCard{
+    opacity: 0.3;
+}
+
+.image img{
+    width: 40%;
+    border-radius: 10px;
+    box-shadow: 2px 8px 50px 0px;
+}

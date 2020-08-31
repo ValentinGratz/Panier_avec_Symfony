@@ -1,0 +1,46 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Mes commandes {% endblock %}
+
+{% block body %}
+    <section>
+        <div class="mt-5">
+            <div class="row">
+
+                <div class="col-6">
+                    <h1>Liste de mes produits</h1>
+                </div>
+                <div class="col-6 text-right">
+                    <a href="{{ path('home') }}">
+                        <button class="btn btn-outline-dark">
+                            Home
+                        </button>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+        <hr>
+
+        <div class="row mb-5">
+            {% for commande in commandes %}
+                <div class="col-4 mt-4">
+                    <div class="border border-dark rounded p-2 clearfix">
+                        <div>
+                            <h2>
+                                {{ commande.product.nomProduit }}
+                            </h2>
+                            <img class="img-fluid rounded" src="{{ commande.product.image }}" alt="Image de {{ commande.product.nomProduit }}">
+                            <div class="mt-3 mb-2">
+                                <h5>Quantité : {{ commande.quantity }}</h5>
+                                <h5>Prix : {{ commande.product.prixProduit }} €</h5>
+                                <h5>Date d'achat : {{ commande.purchaseDate|date("d/m/Y H:i ", "Europe/Paris") }}</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            {% endfor %}
+        </div>
+    </section>
+{% endblock %}
